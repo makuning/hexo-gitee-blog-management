@@ -1,0 +1,11 @@
+# 忽略hexo的node依赖文件
+node_modules/
+
+# 忽略编译生成的静态文件
+public/
+
+# 忽略根目录下的db文件
+/db.json
+
+# 忽略生成的部署版本的文件夹
+.deploy_git/
