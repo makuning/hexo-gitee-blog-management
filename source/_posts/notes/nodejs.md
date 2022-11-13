@@ -6,25 +6,26 @@ categories:
   - 笔记
 tags:
   - NodeJS入门
-  - 命令
+  - NodeJS
+  - 学习
 date: 2022-11-07 22:35:11
 updated: 2022-11-08 12:43:11
 ---
 
-## [Bilibili黑马程序员NodeJS](https://www.bilibili.com/video/BV1a34y167AZ)
+# [Bilibili黑马程序员NodeJS](https://www.bilibili.com/video/BV1a34y167AZ)
 
 基于[Bilibili黑马程序员NodeJS教程](https://www.bilibili.com/video/BV1a34y167AZ)的学习记录
 
-### 什么是nodejs
+## 什么是nodejs
 nodejs是基于谷歌v8引擎的js解释器，nodejs包含npm，npm是node包管理工具
 
-### 如何运行js代码
+## 如何运行js代码
 ```bash
 # 执行当前目录下名为xx.js的js源文件
 $ node xx.js
 ```
 
-### 内置模块
+## 内置模块
 nodejs也和chrome的v8一样，有一些内置模块供我们使用
 
 - fs文件模块
@@ -45,7 +46,7 @@ const path = require('path');
 const http = require('http');
 ```
 
-### 模块化
+## 模块化
 ```js
 // 1、标准
 module.exports = {
@@ -59,7 +60,7 @@ exports.xx = xxx;
 exports.xx = xxx;
 ```
 
-### npm使用
+## npm使用
 ```bash
 # 因为npm默认下载包的地址在国外，可以切换国内的镜像源
 # 下载镜像源快速切换工具nrm
@@ -78,10 +79,10 @@ $ npm install xxxx[@version] [--save]
 $ npm uninstall xxxx[@version] [--save]
 ```
 
-### express
+## express
 优秀的第三方模块，能够快速开发中间件
 
-#### 路由
+### 路由
 ```js
 // 文件1
 const express = require('express');
@@ -100,7 +101,7 @@ app.use('前缀',Router);
 app.listen(端口,funciton;
 ```
 
-#### 中间件
+### 中间件
 express在收到请求时会先调用中间件
 
 中间件的调用会根据中间件注册的顺序执行，而且会共用一个res和req，也就是说可以在上游中间件给res对象和req对象加入一些属性或方法供下游中间件使用。
@@ -139,7 +140,7 @@ app.get('path',mw1,mw2,func);
 - 中间件函数中的业务完成后应当调用next函数，否则请求会停止在此中间件
 - 中间件函数应当最后调用next函数，不能在next函数调用后还继续写代码，否则会造成代码混乱
 
-#### 中间件的分类
+### 中间件的分类
 
 - 应用级别中间件
 注册在app上的中间件
@@ -267,7 +268,7 @@ app.get('path',(req,res) => {
 });
 ```
 
-### 跨域问题
+## 跨域问题
 
 **什么是跨域问题**
 
@@ -282,7 +283,7 @@ Access to XMLHttpRequest at 'http://127.0.0.1/api/get?id=2206831544&name=%E9%A9%
 CORS（主流的解决方案，推荐使用）
 JSONP（有缺陷的解决方案，只支持get请求）
 
-#### 使用cors第三方中间件 
+### 使用cors第三方中间件 
 
 cors是express解决跨域问题的第三方中间件
 
@@ -324,7 +325,7 @@ res.setHeader('Access-Control-Allow-Methods','*');
 
 这个东西我也不太清楚，说是要如果配置了cors，就要配置在cors的前面，然后前端会使用script标签来解析响应的内容。
 
-### mysql模块
+## mysql模块
 这也是第三方模块，用于数据库的连接与操作。
 ```bash
 # 下载第三方包
@@ -389,7 +390,7 @@ connection.query(sql,18,function(error,results,fields) {
 
 在执行操作的时候，如果执行的语句是查询语句，那么results就是一个数组，如果执行的是一个更新语句或者是删除语句，那么results就是一个对象，其中results的affectedRows属性可以查看执行后的语句所影响的行数。
 
-### Web开发模式
+## Web开发模式
 
 SEO?
 
@@ -413,7 +414,7 @@ SEO?
 
 - 前后端分离推荐使用JWT认证机制。
 
-### 在Express中使用Session认证
+## 在Express中使用Session认证
 下载express-session中间件
 ```bash
 $ npm install express-session
@@ -448,7 +449,7 @@ app.get('/user/logout',function(req,res) {
 	res.send('success');
 });
 ```
-### JWT跨域认证
+## JWT跨域认证
 
 由于Cookie默认不支持跨域，如果使用Session+Cookie作为身份验证机制，配置会很麻烦。JWT（JSON Web Token）是目前最流行的跨域认证解决方案。
 
@@ -469,7 +470,7 @@ Header与Signature只与安全有关，防止破解。Payload是加密后的用�
 Authorization: Bearer <token>
 ```
 
-### 在Express中使用JWT
+## 在Express中使用JWT
 
 安装JWT相关的包
 
@@ -487,31 +488,35 @@ $ npm install jsonwebtoken express-jwt
 ```js
 const express = require('express');
 const jwt = require('jsonwebtoken');
-const expressJWT = require('express-jwt');
+// 新版使用方法(7.7.7)，expressJWT为接收变量名，可任意更换
+var {expressjwt: expressJWT} = require('express-jwt');
 const app = express();
 
 // 定义secret密钥（随意字符串）
 const secretKey = 'XXXX xxxx II';
 
 // 配置JWT解析中间件
+	// 这个algorithms必须配置，好像是配置加密算法
 // expressJWT({})：配置解析
 // expressJWT({}).unless({})：配置哪些不使用解析
+// 添加expressJWT中间件后，express会将解析的token信息挂载在req.user中
 app.use(expressJWT({
-	secret: secretKey
+	secret: secretKey,
+	algorithms: ["HS256"]
 }).unless({
 	path: [/^\/api\//]
 }));
 // 解析请求体JSON数据
 app.use(express.json());
 
-app.get('/user/login',function(req,res) {
+app.post('/api/user/login/action',function(req,res) {
 	const user = req.body;
 	if (user.name === 'admin' && user.pwd === '123456') {
 		console.log('登陆成功！');
-		// 参数1：加密信息
+		// 参数1：加密信息，必须为一个对象！
 		// 参数2：加密密钥
 		// 参数3：配置，有很多参数，这里只配置了token有效期为30秒
-		const tokenStr = jwt.sign(user,secretKey,{expiresIn: '30s'});
+		const tokenStr = jwt.sign({username: user.name},secretKey,{expiresIn: '30s'});
 
 		res.send({
 			status: 200,
@@ -526,5 +531,37 @@ app.get('/user/login',function(req,res) {
 			token: null
 		});
 	}
+});
+
+// 请求此接口时应该在请求头的Authorization中添加token信息
+app.get('/user/info',function(req,res) {
+	const user = req.user;
+	// username为之前生成token时需要打包的数据中的字段
+	if (user.username === admin) {
+		res.send({
+			code: 200,
+			msg: '请求成功！',
+			data: {
+				name: 'admin',
+				age: 19
+			}
+		});
+	}
+});
+
+// 添加token解析异常中间件处理
+app.use((err,req,res,next) => {
+	if (err.name === 'UnauthorizedError') {
+		return res.send({
+			code: 401,
+			msg: '无效的token',
+		});
+	} 
+
+	// 如果不是token错误
+	res.send({
+		code: 500,
+		msg: '未知的错误',
+	});
 });
 ```
