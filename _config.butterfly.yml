@@ -114,7 +114,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /img/background/shark2.jpg
+index_img: https://api.vvhan.com/api/bing
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: /img/background/beard-girl2.jpg
@@ -721,7 +721,7 @@ aside:
       enable: true
       icon: fa fa-book-open
       text: 关注我
-      link: https://gitee.com/makun_ing
+      link: https://gitee.com/makuning
   card_announcement:
     enable: true
     content: 博客正在建设中...

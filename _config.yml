@@ -13,7 +13,7 @@ timezone: Asia/Shanghai    #中国的时区
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://makun_ing.gitee.io
+url: https://makuning.gitee.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,7 +104,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://gitee.com/makun_ing/makun_ing.git
+  repo: https://gitee.com/makuning/makuning.git
   branch: master
 
 # Lazyload: 图片懒加载
