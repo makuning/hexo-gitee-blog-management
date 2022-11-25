@@ -208,9 +208,78 @@ new Vue({
 </style>
 ```
 
+### 组件之间的父子关系
 
+组件封装好之后，彼此之间是相互独立的，不存在父子关系
 
+在使用组件时，根据彼此的嵌套关系，形成了父子关系，兄弟关系
 
+### 使用组件的三个步骤
+
+1. 使用import语法导入需要的组件
+2. 使用components节点注册组件
+3. 以标签的形式使用刚才注册的组件
+
+```vue
+<template>
+    <div class="box">
+        <!-- 以标签形式，使用注册好的组件 -->
+        <Left></Left>
+    </div>
+</template>
+
+<script>
+	// 导入需要使用的.vue组件
+	import Left from '@/components/left.vue';
+    import Right from '@/components/right.vue';
+    
+    export default {
+        components: {
+            'Left': Left,
+            'Right': Right
+        }
+    }
+</script>
+```
+
+visual studio code 路径提示插件`Path Autocomplete`
+
+### 注册全局组件
+
+之前使用components注册的是私有组件，只能在被导入的组件里使用
+
+在vue项目的**main.js**入口文件中，通过`Vue.component()`方法，可以注册全局组件
+
+```js
+import Count from '@/components/Count.vue'
+
+// 第一个参数是组件注册名，第二个参数是需要注册的组件
+// 组件注册名建议大写开头
+Vue.componnent('MyCount',Count)
+```
+
+Visual Studio Code自动补齐标签插件`Auto Close Tag`
+
+### 组件里的props
+
+组件的自定义属性，在封装通用组件的时候，合理使用props可以极大提高组件的复用性
+
+```js
+export default {
+    // props是自定义属性，允许使用者通过自定义属性，为当前组件指定初始值
+    // 在使用标签引入时使用属性来传值
+    /*
+    	<MyCount init="9"></MyCount>
+    */
+    props: ['init']
+    
+    data() {
+        return {
+            count: 0
+        }
+    }
+}
+```
 
 
 
