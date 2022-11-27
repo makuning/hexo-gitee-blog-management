@@ -26,8 +26,12 @@ menu:
     分类: /categories/ || fa fa-archive
     标签: /tags/ || fa fa-tags
     归档: /archives/ || fa fa-folder-open
-  友链: /link/ || fa fa-link
   留言板: /messageboard/ || fa fa-paper-plane
+  友链: /link/ || fa fa-link
+  生活 || iconfont icon-xiuxiankafeiyule:
+    图库: /gallery/ || iconfont icon-tuku
+    记录: /diaries/ || iconfont icon-lingduiriji
+    实验: /test/ || iconfont icon-shiyanshi
   关于: /about/ || fa fa-id-card
 
 
@@ -724,11 +728,11 @@ aside:
       link: https://gitee.com/makuning
   card_announcement:
     enable: true
-    content: 01大学狗前来报到！
+    content: '<h4>01大学狗前来报到！</h4><p>目前还是一名在校大学生</p><p>一起进步啊~</p>'
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
-    sort: date # date or updated
+    sort: updated # date or updated
     sort_order: # Don't modify the setting unless you know how it works
   card_categories:
     enable: true
@@ -746,7 +750,7 @@ aside:
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
     limit: 8 # if set 0 will show all
-    sort_order: # Don't modify the setting unless you know how it works
+    sort_order: 3 # Don't modify the setting unless you know how it works
   card_webinfo:
     enable: true
     post_count: true
@@ -929,6 +933,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3795172_22am73vjnsk.css">
   bottom:
     # - <script src="xxxx"></script>
 

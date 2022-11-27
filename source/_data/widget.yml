@@ -1,0 +1,7 @@
+top:
+    - class_name: user-map
+      id_name: user-map
+      name: 个人爱好
+      icon: iconfont icon-ziyuan25
+      order: 2
+      html: '<span>跑步</span><br /><span>骑自行车</span><br /><span>狂吃一顿！</span>'
