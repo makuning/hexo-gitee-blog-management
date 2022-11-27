@@ -16,6 +16,34 @@ updated: 2022-11-27 15:04:46
 
 基于[Bilibili黑马程序员Vue2+vue3](https://www.bilibili.com/video/BV1zq4y1p7ga/?vd_source=43f3f41b9a99cfe3d5248db59a3897c7)教程的学习笔记（4）
 
+## 路由
+
+路由就是对应关系，Hash地址（锚链接）与组件之间的对应关系
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

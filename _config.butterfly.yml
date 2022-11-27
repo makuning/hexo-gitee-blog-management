@@ -724,7 +724,7 @@ aside:
       link: https://gitee.com/makuning
   card_announcement:
     enable: true
-    content: 博客正在建设中...
+    content: 01大学狗前来报到！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
