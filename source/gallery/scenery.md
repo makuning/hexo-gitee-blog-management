@@ -1,5 +1,5 @@
 ---
-title: 图库
+title: 拍下的风景
 cover: /img/website/cover-article-default.png
 comments: true
 categories:

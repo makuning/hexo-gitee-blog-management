@@ -109,5 +109,5 @@ deploy:
 
 # Lazyload: 图片懒加载
 lazyload:
-  enable: true
+  enable: false
   loadingImg: /img/website/loading.gif
