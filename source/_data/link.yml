@@ -11,11 +11,11 @@
       descr: 快速、简单且强大的网志框架
     - name: Jerry Wong
       link: https://github.com/jerryc127
-      avatar: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/head/hexo-theme-butterfly.png
+      avatar: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/head/hexo-theme-butterfly.png
       descr: 主题开发者
     - name: 小马同学
       link: https://gitee.com/jiaxinxiaobinggan
-      avatar: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/head/jiaxinxiaobinggan.png
+      avatar: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/head/jiaxinxiaobinggan.png
       descr: 我亲爱的室友
     - name: John Cena
       link: https://jcxiaozhan.gitee.io/
@@ -35,13 +35,13 @@
   link_list:
     - name: Bilibili
       link: https://www.bilibili.com/
-      avatar: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/icon/bilibili.png
+      avatar: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/icon/bilibili.png
       descr: 视频网站
     - name: Weibo
       link: https://www.weibo.com/
-      avatar: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/icon/weibo.png
+      avatar: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/icon/weibo.png
       descr: 中国最大社交分享平台
     - name: Butterfly
       link: https://butterfly.js.org/
-      avatar: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/head/hexo-theme-butterfly.png
+      avatar: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/head/hexo-theme-butterfly.png
       descr: hexo-theme-butterfly演示+文档

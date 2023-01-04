@@ -1,6 +1,6 @@
 ---
 title: Hexo博客管理
-cover: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/working/hexo-manage/cover.jpg
+cover: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/working/hexo-manage/cover.jpg
 date: 2022-11-03 10:43:21
 updated: 2022-11-25 22:42:53
 comments: true
@@ -51,7 +51,7 @@ $ hexo new --path test/notes/vue2 "Vue2入门笔记"
 <!-- 文章标题 -->
 title: Hexo建站感言
 <!-- 文章封面 -->
-cover: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/summary/hello-world/cover.jpg
+cover: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/summary/hello-world/cover.jpg
 <!-- 是否开启评论 -->
 comments: true
 <!-- 文章分类，只能有一个 -->

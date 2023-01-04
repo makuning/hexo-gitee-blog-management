@@ -23,7 +23,7 @@ updated: 2022-12-11 16:11:04
 
 使用IntelliJ IDEA创建一个maven的web项目
 
-![image-20221211162042337](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/configure/spring-mvc/image-20221211162042337.png)
+![image-20221211162042337](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/configure/spring-mvc/image-20221211162042337.png)
 
 ### 导入所需坐标
 
@@ -50,7 +50,7 @@ Spring-MVC需要**spring-webmvc**坐标，我这里使用`5.2.10.RELEASE`版本�
 
 创建源码目录并增加controller包与config包
 
-![image-20221211163129855](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/configure/spring-mvc/image-20221211163129855.png)
+![image-20221211163129855](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/configure/spring-mvc/image-20221211163129855.png)
 
 ### 创建控制器
 
@@ -173,8 +173,8 @@ public class ServletControllerInitConfig extends AbstractDispatcherServletInitia
 
 配置IntelliJ IDEA运行调试配置
 
-![image-20221211165609106](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/configure/spring-mvc/image-20221211165609106.png)
+![image-20221211165609106](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/configure/spring-mvc/image-20221211165609106.png)
 
 运行访问`http://127.0.0.1:80/user/save`出现以下结果表示成功
 
-![image-20221211172219107](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/configure/spring-mvc/image-20221211172219107.png)
+![image-20221211172219107](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/configure/spring-mvc/image-20221211172219107.png)

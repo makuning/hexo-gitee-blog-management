@@ -25,11 +25,11 @@ SpringBoot是Spring家族特别重要的一员，能够大大简化spring的配�
 
 配置好对应的选项
 
-![image-20221219152851678](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/configure/spring-boot/image-20221219152851678.png)
+![image-20221219152851678](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/configure/spring-boot/image-20221219152851678.png)
 
 点击右侧的`ADD DEPENDENCIES`选项，添加`spring web`依赖包
 
-![image-20221219153025959](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/configure/spring-boot/image-20221219153025959.png)
+![image-20221219153025959](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/configure/spring-boot/image-20221219153025959.png)
 
 点击`GENERATE`按钮，会让你下载一个zip包，这就是我们的springboot项目
 
@@ -37,7 +37,7 @@ SpringBoot是Spring家族特别重要的一员，能够大大简化spring的配�
 
 当然，IDEA也为我们提供了快速创建Springboot项目的方法，用的就是上面Spring官网的接口
 
-![image-20221219160208489](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/configure/spring-boot/image-20221219160208489.png)
+![image-20221219160208489](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/configure/spring-boot/image-20221219160208489.png)
 
 选择web，点击创建
 
@@ -71,6 +71,6 @@ public class UserController {
 
 点击启动，控制台出现以下内容，表示启动成功
 
-![image-20221219173925854](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/configure/spring-boot/image-20221219173925854.png)
+![image-20221219173925854](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/configure/spring-boot/image-20221219173925854.png)
 
 访问`http://127.0.0.1:8080/user/1`，如果显示**hello Spring boot**，表示访问成功

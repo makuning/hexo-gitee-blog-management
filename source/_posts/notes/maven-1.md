@@ -1,6 +1,6 @@
 ---
 title: Maven入门笔记（1）
-cover: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/maven-1/cover.png
+cover: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/maven-1/cover.png
 comments: true
 categories:
   - 笔记
@@ -29,25 +29,25 @@ POM (Project Object Model) :项目对象模型
 
 ### 仓库
 
-![image-20221205102107977](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205102107977.png)
+![image-20221205102107977](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205102107977.png)
 
-![image-20221205102129144](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205102129144.png)
+![image-20221205102129144](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205102129144.png)
 
 ### 坐标
 
 [查找Jar包](https://repo1.maven.org/)
 
-![image-20221205102720877](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205102720877.png)
+![image-20221205102720877](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205102720877.png)
 
 ### Maven项目构建
 
-![image-20221205110056101](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205110056101.png)
+![image-20221205110056101](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205110056101.png)
 
 ## 依赖管理
 
 ### 依赖配置与依赖传递
 
-![image-20221205113953270](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205113953270.png)
+![image-20221205113953270](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205113953270.png)
 
 ### 可选依赖
 
@@ -55,15 +55,15 @@ POM (Project Object Model) :项目对象模型
 
 ### 依赖范围
 
-![image-20221205114649766](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205114649766.png)
+![image-20221205114649766](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205114649766.png)
 
 ## 周期与插件
 
 ### 生命周期
 
-![image-20221205115154942](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205115154942.png)
+![image-20221205115154942](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205115154942.png)
 
-![image-20221205115253620](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205115253620.png)
+![image-20221205115253620](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/maven-1/image-20221205115253620.png)
 
 
 

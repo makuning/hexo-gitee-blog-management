@@ -1,6 +1,6 @@
 ---
 title: NodeJS入门笔记
-cover: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/nodejs/cover.png
+cover: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/nodejs/cover.png
 comments: true
 categories:
   - 笔记

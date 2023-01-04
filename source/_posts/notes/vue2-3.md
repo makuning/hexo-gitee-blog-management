@@ -1,6 +1,6 @@
 ---
 title: Vue2入门笔记（3）
-cover: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-3/cover.png
+cover: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-3/cover.png
 comments: true
 categories:
   - 笔记
@@ -189,7 +189,7 @@ export default {
 
 插槽（Slot)是vue为组件的封装者提供的能力。允许开发者在封装组件时，把不确定的、希望由用户指定的部分定义为插槽。
 
-![image-20221127122256094](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-3/image-20221127122256094.png)
+![image-20221127122256094](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-3/image-20221127122256094.png)
 
 如果组件没有定义插槽，那么使用组件时传入的自定义内容会被丢弃
 
@@ -464,11 +464,11 @@ Vue.directive('color', function(el, binding) {
 
 vscode安装vetur插件，并更改vscode缩进为2格
 
-![image-20221127134002900](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-3/image-20221127134002900.png)
+![image-20221127134002900](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-3/image-20221127134002900.png)
 
 设置粘贴的代码格式化和保存时代码格式化
 
-![image-20221127134240057](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-3/image-20221127134240057.png)
+![image-20221127134240057](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-3/image-20221127134240057.png)
 
 ### 配置文件的rules规则
 

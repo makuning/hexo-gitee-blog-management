@@ -1,7 +1,7 @@
 ---
 title: Vue2入门笔记（2）
 comments: true
-cover: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/cover.png
+cover: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/cover.png
 categories:
   - 笔记
 tags:
@@ -51,27 +51,27 @@ Vue CLI v5.0.8
 
 使用空格选择与取消部分选项，然后回车
 
-![选择需要的下载](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125163616553.png)
+![选择需要的下载](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125163616553.png)
 
 选择vue2.x，然后回车
 
-![选择vue2.x](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125163924064.png)
+![选择vue2.x](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125163924064.png)
 
 选择Less，回车
 
-![选择Less](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125164020628.png)
+![选择Less](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125164020628.png)
 
 选择第一项，将babel等插件的配置项，放到自己独立的文件中，回车
 
-![选择独立配置](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125164240909.png)
+![选择独立配置](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125164240909.png)
 
 输入y保存我们的选项作为预设，回车
 
-![保存预设](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125164417096.png)
+![保存预设](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125164417096.png)
 
 输入为预设取的别名，然后回车
 
-![为预设取别名](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125164516315.png)
+![为预设取别名](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221125164516315.png)
 
 等待加载完成后，进入项目目录，执行`npm run serve`命令让项目跑起来，打开控制台打印的url地址，查看效果。
 
@@ -383,7 +383,7 @@ export default {
 
 一个组件从创建 -> 运行 -> 销毁的整个阶段，强调的是一个时间段。
 
-![image-20221126104840924](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126104840924.png)
+![image-20221126104840924](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126104840924.png)
 
 [vue2官方文档](https://v2.cn.vuejs.org/)
 
@@ -391,7 +391,7 @@ export default {
 
 ### 组件创建阶段
 
-![image-20221126113123020](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126113123020.png)
+![image-20221126113123020](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126113123020.png)
 
 ```js
 export default {
@@ -434,17 +434,17 @@ export default {
 
 **created生命周期函数非常常用，经常在它里面调用methods中的方法，请求服务器的数据，并且将请求到的数据，转存到data中，供template模板渲染使用**
 
-![image-20221126134313003](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126134313003.png)
+![image-20221126134313003](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126134313003.png)
 
-![image-20221126134334379](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126134334379.png)
+![image-20221126134334379](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126134334379.png)
 
 ### 组件运行阶段
 
-![image-20221126135131635](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126135131635.png)
+![image-20221126135131635](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126135131635.png)
 
 ### 组件销毁阶段
 
-![image-20221126201935215](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126201935215.png)
+![image-20221126201935215](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126201935215.png)
 
 ## 父子传值
 
@@ -530,7 +530,7 @@ Vue2中，兄弟组件之间数据共享的方案是EventBus
 
 这是一种现成的解决方案
 
-![image-20221126211531540](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126211531540.png)
+![image-20221126211531540](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-2/image-20221126211531540.png)
 
 **使用步骤**
 

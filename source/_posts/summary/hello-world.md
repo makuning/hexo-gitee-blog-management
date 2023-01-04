@@ -1,6 +1,6 @@
 ---
 title: Hexo建站感言
-cover: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/summary/hello-world/cover.jpg
+cover: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/background/shark.jpg
 comments: true
 categories:
   - 总结

@@ -1,6 +1,6 @@
 ---
 title: Vue2入门笔记（4）
-cover: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-4/cover.png
+cover: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-4/cover.png
 comments: true
 categories:
   - 笔记
@@ -36,7 +36,7 @@ URL地址从`#`开始，`#`加它后面的部分就是Hash地址
 
 4. 前端路由把当前Hash地址对应的组件渲染都浏览器中
 
-![image-20221127164723111](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221127164723111.png)
+![image-20221127164723111](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221127164723111.png)
 
 原生JS使用`window.onhashchange`就能监听页面hash地址的变化
 
@@ -145,11 +145,11 @@ const router = new VueRouter({
 
 通过路由实现组件的嵌套展示，叫做嵌套路由。
 
-![image-20221128114341148](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128114341148.png)
+![image-20221128114341148](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128114341148.png)
 
 通过children属性声明子路由规则
 
-![image-20221128114525533](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128114525533.png)
+![image-20221128114525533](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128114525533.png)
 
 ### 动态路由
 
@@ -221,13 +221,13 @@ export default {
 
 导航守卫可以控制路由的访问权限。示意图如下:
 
-![image-20221128123448389](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128123448389.png)
+![image-20221128123448389](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128123448389.png)
 
 **全局前置守卫**
 
 每次发生路由的导航跳转时，都会触发全局前置守卫。因此在全局前置守卫中，程序员可以对每个路由进行访问权限的控制:
 
-![image-20221128132040472](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128132040472.png)
+![image-20221128132040472](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128132040472.png)
 
 ```js
 // 只要发生了路由的跳转，必然会触发beforeEach指定的 function回调函数
@@ -242,11 +242,11 @@ router.beforeEach(function(to, from, next) {
 
 **next函数的3种调用方式**
 
-![image-20221128133552767](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128133552767.png)
+![image-20221128133552767](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128133552767.png)
 
 **控制后台主页的访问权限**
 
-![image-20221128134257115](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128134257115.png)
+![image-20221128134257115](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2-4/image-20221128134257115.png)
 
 ## Vant组件库
 

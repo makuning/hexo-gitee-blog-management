@@ -1,6 +1,6 @@
 ---
 title: SpringBoot2学习笔记（1）基础篇
-cover: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/springboot2-1/cover.png
+cover: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/springboot2-1/cover.png
 comments: true
 categories:
   - 笔记

@@ -19,13 +19,13 @@ updated: 2022-12-08 22:25:15
 
 **使用Intellij IDEA快速创建Maven项目**
 
-![image-20221208194747004](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/configure/spring-mybatis-junit/image-20221208194747004.png)
+![image-20221208194747004](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/configure/spring-mybatis-junit/image-20221208194747004.png)
 
 **配置好后会自动加上Junit的坐标，但是版本较老，后面会更换**
 
 测试目录也自动生成了，并且有自带的启动入口
 
-![image-20221208195351476](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/configure/spring-mybatis-junit/image-20221208195351476.png)
+![image-20221208195351476](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/configure/spring-mybatis-junit/image-20221208195351476.png)
 
 ## 配置Spring
 
@@ -230,7 +230,7 @@ User{id=null, name='null', gender='null', age=null, phone='null', birthday=null}
 
 在项目的`/src/main/`下创建resource文件夹，并表明为资源文件夹
 
-![image-20221208202635732](https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/configure/spring-mybatis-junit/image-20221208202635732.png)
+![image-20221208202635732](https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/configure/spring-mybatis-junit/image-20221208202635732.png)
 
 在文件夹下创建`jdbc.properties`配置文件，填写你的数据库连接信息
 

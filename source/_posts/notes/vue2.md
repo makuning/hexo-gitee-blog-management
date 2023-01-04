@@ -1,6 +1,6 @@
 ---
 title: Vue2入门笔记（1）
-cover: https://makun-ing-image-bed.oss-cn-chengdu.aliyuncs.com/hexo-gitee-blog/article/_post/notes/vue2/cover.png
+cover: https://gitee.com/markening/image-bed/raw/master/hexo-gitee-blog/article/_post/notes/vue2/cover.png
 comments: true
 categories:
   - 笔记
@@ -591,13 +591,13 @@ Vue有内置对象，$event表示js原生事件对象
 
 加在事件绑定的后面
 
-| 事件修饰符 | 说明 |
-| :--- | :--- |
-| .prevent | 阻止默认行为|
-| .stop| 阻止事件冒泡 |
-| .capture | 以捕获模式出发当前的事件处理函数|
-| .once | 绑定的事件只触发一次|
-| .self | 只有在event.target是当前元素自身时触发事件处理函数|
+| 事件修饰符 | 说明                                               |
+| :--------- | :------------------------------------------------- |
+| .prevent   | 阻止默认行为                                       |
+| .stop      | 阻止事件冒泡                                       |
+| .capture   | 以捕获模式出发当前的事件处理函数                   |
+| .once      | 绑定的事件只触发一次                               |
+| .self      | 只有在event.target是当前元素自身时触发事件处理函数 |
 
 **阻止默认事件**
 
@@ -605,11 +605,11 @@ Vue有内置对象，$event表示js原生事件对象
 
 **按键修饰符**
 
-| 按键修饰符| 说明|
-|:---|:---|
-|.enter|按键是enter时才触发事件|
-|.esc|按键时esc时才触发事件|
-|...|...|
+| 按键修饰符 | 说明                    |
+| :--------- | :---------------------- |
+| .enter     | 按键是enter时才触发事件 |
+| .esc       | 按键时esc时才触发事件   |
+| ...        | ...                     |
 
 ##### 双向绑定指令
 
@@ -636,11 +636,11 @@ Vue有内置对象，$event表示js原生事件对象
 
 `v-model`指令的修饰符
 
-|`v-model`修饰符|说明|
-|:---|:---|
-|.number | 识别绑定的数据为数值 |
-|.trim | 自动去除首尾空格 |
-|.lazy | 中间的变化过程不会同步到变量中 |
+| `v-model`修饰符 | 说明                           |
+| :-------------- | :----------------------------- |
+| .number         | 识别绑定的数据为数值           |
+| .trim           | 自动去除首尾空格               |
+| .lazy           | 中间的变化过程不会同步到变量中 |
 
 ##### 条件渲染指令
 
