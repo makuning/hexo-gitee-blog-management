@@ -1,5 +1,27 @@
 ## Hexo博客管理项目
 
+### 环境搭建
+
+#### 必要软件下载
+
+到[NodeJS中文官网下载](http://nodejs.cn/download/)**nodejs**，目前下载的版本是`16.18.1`
+
+到[Git官网下载](https://git-scm.com/download/win)对应版本的Git
+
+#### 必要软件配置
+
+为node装载**hexo脚手架全局包**
+
+```bash
+$ npm install -g hexo-cli
+```
+
+#### 辅助软件下载
+
+[PicGo](https://github.com/Molunerfinn/PicGo/releases)，免费开源的图片上传工具
+
+[Typora]()，一直在用的MarkDown编辑器，可以配合PicGo与Gitee图床使用，非常方便，激活码在我的QQ邮箱，搜索关键词**Typora**
+
 ### 基本使用方法
 
 常用命令
